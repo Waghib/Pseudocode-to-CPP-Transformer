@@ -40,25 +40,17 @@ A bidirectional translation system powered by transformer neural networks that c
 
 ## 💻 Usage
 
-1. Activate the virtual environment if you haven't already:
-   ```bash
-   # On Windows
-   .\poetry_env\Scripts\activate
-   # On Unix or MacOS
-   source poetry_env/bin/activate
-   ```
-
-2. Run the Streamlit application:
+1. Run the Streamlit application:
    ```bash
    python -m streamlit run app.py
    ```
 
-3. Open your web browser and navigate to:
+2. Open your web browser and navigate to:
    ```
    http://localhost:8501
    ```
 
-4. Use the interface to:
+3. Use the interface to:
    - Select the translation mode (C++ → Pseudocode or Pseudocode → C++)
    - Enter your code in the text area
    - Click "Translate" to generate the translation
