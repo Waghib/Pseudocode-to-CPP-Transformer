@@ -133,11 +133,11 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.write("### Select Mode")
-    mode = st.selectbox("", ["C++ → Pseudocode", "Pseudocode → C++"])
+    mode = st.selectbox("Translation Mode", ["C++ → Pseudocode", "Pseudocode → C++"])
 
 with col2:
     st.write("### Input Code")
-    user_input = st.text_area("", height=150)
+    user_input = st.text_area("Code Input", height=150)
 
 # Translate Button
 if st.button("Translate"):
